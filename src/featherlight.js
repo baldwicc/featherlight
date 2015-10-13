@@ -136,7 +136,7 @@
 				$background = $(self.background || [
 					'<div class="'+css+'-loading '+css+'">',
 						'<div role="dialog" class="'+css+'-content">',
-							'<span tabindex="0" class="'+css+'-close-icon '+ self.namespace + '-close">',
+							'<span aria-label="close" tabindex="0" class="'+css+'-close-icon '+ self.namespace + '-close">',
 								self.closeIcon,
 							'</span>',
 							'<div class="'+self.namespace+'-inner">' + self.loading + '</div>',
